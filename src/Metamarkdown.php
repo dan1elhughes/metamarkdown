@@ -6,8 +6,8 @@ class Metamarkdown {
 	private $parsedown;
 	private $separator = "\n\n=-=\n\n";
 
-	public function __construct($parsedown) {
-		$this->parsedown = $parsedown;
+	public function __construct() {
+		$this->parsedown = new \Parsedown();
 	}
 
 	public function text($text) {
