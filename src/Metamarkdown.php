@@ -19,6 +19,10 @@ class Metamarkdown {
 			return ($text == 'true');
 		}
 
+		if ($text == 'yes' | $text == 'no') {
+			return ($text == 'yes');
+		}
+
 		if (is_numeric($text)) {
 			return (int) $text;
 		}
