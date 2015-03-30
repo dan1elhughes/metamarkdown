@@ -1,19 +1,19 @@
 {
-    "name": "xes/metamarkdown",
-    "type": "library",
-    "description": "Markdown wrapper with metadata interpretation",
-    "homepage": "https://github.com/dan1elhughes/metamarkdown",
-    "authors": [
-        {
-            "name": "Dan Hughes",
-            "email": "dh@xes.io",
-            "homepage": "https://xes.io",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "erusev/parsedown": "dev-master"
-    },
+	"name": "xes/metamarkdown",
+	"type": "library",
+	"description": "Markdown wrapper with metadata interpretation",
+	"homepage": "https://github.com/dan1elhughes/metamarkdown",
+	"authors": [
+		{
+			"name": "Dan Hughes",
+			"email": "dh@xes.io",
+			"homepage": "https://xes.io",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"erusev/parsedown": "dev-master"
+	},
 	"autoload": {
 		"psr-4": {
 			"xes\\": "src/"
