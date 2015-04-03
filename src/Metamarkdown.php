@@ -62,7 +62,13 @@ class Metamarkdown {
 			$metadataOut = $this->metadata($split[0]);
 			$textOut = $this->text($split[1]);
 		} else {
-			return $this->text($text);
+
+			$split = explode($this->separator, $text);
+
+			$ret = $this->metadata($split[0]);
+			$ret['content'] = $this->text($split[1]);
+
+			return $ret;
 		}
 
 	}
